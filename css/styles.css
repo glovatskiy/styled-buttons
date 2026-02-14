@@ -1,0 +1,33 @@
+:root{
+    --spacing-s: 5px;
+    --spacing-m: 10px;
+    --spacing-l: 15px;
+    --radius-s: 5px;
+    --radius-m: 10px;
+    --radius-l: 15px;
+}
+.btn{
+    padding: var(--spacing-s) var(--spacing-l);
+    border-radius: var(--radius-m);
+    border: none;
+
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: inherit;
+
+    cursor: pointer;
+    background: none;
+    
+    transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+    
+  
+
+}
+.btn:focus-visible {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
